@@ -1,0 +1,24 @@
+.DS_Store
+node_modules
+/dist*
+/src/cg-flow-fe-ele
+/backup
+# local env files
+.env.development
+
+grid-civilization-pc-web*
+# Log files
+npm-debug.log*
+yarn-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.project
+.settings/
+

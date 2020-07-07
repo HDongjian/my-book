@@ -1,0 +1,48 @@
+{
+  "title": "郝笔记",
+  "author": "HDongjian",
+  "output.name": "site",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "首页": "http://hdongyu.com/"
+    }
+  },
+  "plugins": [
+    "code",
+    "-search",
+    "search-pro",
+    "github",
+    "splitter",
+    "tbfed-pagefooter",
+    "-sharing",
+    "sharing-plus",
+    "prism",
+    "-highlight",
+    "styles-less",
+    "toggle-chapters",
+    "multipart",
+    "ancre-navigation"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/HDongjian"
+    },
+
+    "code": {
+      "copyButtons": true
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright © H_Dongjian 2020",
+      "modify_label": "本书发布时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "weibo": true,
+      "qq": true,
+      "all": ["douban", "google", "qzone", "linkedin"]
+    }
+  }
+}
