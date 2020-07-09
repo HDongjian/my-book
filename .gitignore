@@ -3,6 +3,7 @@ node_modules
 /dist*
 /src/cg-flow-fe-ele
 /backup
+/_book
 # local env files
 .env.development
 
