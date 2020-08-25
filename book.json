@@ -22,7 +22,8 @@
     "styles-less",
     "toggle-chapters",
     "multipart",
-    "ancre-navigation"
+    "ancre-navigation",
+    "page-treeview"
   ],
   "pluginsConfig": {
     "github": {
@@ -43,6 +44,10 @@
       "weibo": true,
       "qq": true,
       "all": ["douban", "google", "qzone", "linkedin"]
+    },
+    "page-treeview": {
+      "minHeaderCount": "2",
+      "minHeaderDeep": "6"
     }
   }
 }
