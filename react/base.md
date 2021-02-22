@@ -187,8 +187,6 @@ class Movie extends React.Component{
     }
 }
 
-
-
 ReactDOM.render(<div>
     <Movie></Movie>
 </div>,document.getElementById('app'));
@@ -253,10 +251,6 @@ ReactDOM.render(<div>
 
 ## CSS模块化
 
-### CSS行内式
-```html
-<h1 style={{color:'red',fontWeight:200}}></h1>
-```
 ### 启用css-modules
 修改webpack.config.js这个配置文件，为css-loader添加参数
 
@@ -270,3 +264,4 @@ ReactDOM.render(<div>
 import cssObj from '../css/CmtList.css'
 ```
 在需要HTML标签上，使用className指定模块化的样式
+

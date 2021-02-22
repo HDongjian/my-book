@@ -22,8 +22,7 @@
     "styles-less",
     "toggle-chapters",
     "multipart",
-    "ancre-navigation",
-    "page-treeview"
+    "ancre-navigation"
   ],
   "pluginsConfig": {
     "github": {
@@ -39,8 +38,8 @@
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
     "sharing": {
-      "facebook": true,
-      "twitter": true,
+      "facebook": false,
+      "twitter": false,
       "weibo": true,
       "qq": true,
       "all": ["douban", "google", "qzone", "linkedin"]
